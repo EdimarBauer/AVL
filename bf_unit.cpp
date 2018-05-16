@@ -5,6 +5,9 @@
 *
 * Update: February 20, 2018
 * Update: May 15, 2018
+*
+* bf is the balance_factor. When bf is 0 the node is equilibrate, when bf is -1 the left is heaviest, when bf is 1 the right 
+* is heaviest, when bf is -2 is necessary to do rotation to right and when bf is 2 is necessary to do rotation to left
 */
 
 #include <iostream>
